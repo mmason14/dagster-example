@@ -1,0 +1,11 @@
+#  temp folders
+tmp*
+
+# Environments
+.env 
+
+# local csv file 
+
+daily_bg_readings.csv
+
+*.egg-info

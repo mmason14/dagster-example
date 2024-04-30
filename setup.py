@@ -14,7 +14,8 @@ setup(
         "ipykernel",
         "jupytext",
         "pyspark",
-        "pydexcom"
+        "pydexcom",
+        "dagster_aws"
     ],
     extras_require={"dev": ["dagster-webserver", "pytest"]},
 )

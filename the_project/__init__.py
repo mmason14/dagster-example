@@ -11,6 +11,8 @@ from dagster import (
 from the_project import assets
 import os
 
+key_id = os.getenv("AWS_ACCESS_KEY_ID")
+access_key = os.getenv("AWS_SECRET_ACCESS_KEY")
 
 all_assets = load_assets_from_modules([assets])
 

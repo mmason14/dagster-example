@@ -9,3 +9,5 @@ tmp*
 daily_bg_readings.csv
 
 *.egg-info
+
+the_project/__pycache__/
